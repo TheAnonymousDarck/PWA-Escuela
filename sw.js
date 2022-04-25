@@ -2,12 +2,12 @@ const CACHE_STATIC_NAME = 'site-static'
 const CACHE_DYNAMIC_NAME = 'site-dynamic'
 const CACHE_INMUTABLE_NAME = 'inmutable'
 
-const OFFLINE = '/Offline.html'
+const OFFLINE = '/offline.html'
 
 const assets = [
   '/',
   '/index.html',
-  '/Offline.html',
+  '/offline.html',
   '/Icono.png',
   
   '/css/bulma-0.9.3.min.css',
@@ -17,11 +17,11 @@ const assets = [
   '/js/app.js',
   '/js/glider-js-1.7.7.min.js',
 
-  '/pages/Contacto.html',
-  '/pages/Especialidades.html',
-  '/pages/Nosotros.html',
-  '/pages/Nuevo_Ingreso.html',
-  '/pages/Ubicacion.html',
+  '/pages/contacto.html',
+  '/pages/especialidades.html',
+  '/pages/nosotros.html',
+  '/pages/nuevo_ingreso.html',
+  '/pages/ubicacion.html',
 
   '/assets/carousel/1.jpg',
   '/assets/carousel/2.jpg',
