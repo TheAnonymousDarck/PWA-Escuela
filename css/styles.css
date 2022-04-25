@@ -1,0 +1,69 @@
+.carousel_contenedor{
+    position: relative;
+}
+
+.carousel_anterior,
+.carousel_siguiente{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: hsl(204, 86%, 53%);
+	opacity: 80%;
+
+}
+.carousel_anterior:hover,
+.carousel_siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel_anterior {
+	left: -30px;
+}
+
+.carousel_siguiente {
+	right: -30px;
+}
+
+.carousel_list {
+	overflow: hidden;
+}
+
+.carousel_indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: hsl(204, 86%, 53%);
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel_indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel_indicadores .glider-dot.active {
+	opacity: 1;
+}
+.mapa-res{
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.carousel_anterior,
+    .carousel_siguiente{
+        display: none;
+    }
+	.mapa-full{
+		display: none;
+	}
+	.mapa-res{
+		display: initial;
+	}
+}
