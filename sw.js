@@ -6,7 +6,7 @@ const OFFLINE = '/Offline.html'
 
 const assets = [
   '/',
-  '/Index.html',
+  '/index.html',
   '/Offline.html',
   '/Icono.png',
   
