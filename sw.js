@@ -47,7 +47,9 @@ const assets = [
 
 const assetsInmutables = [
   'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js',
-  'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'
+  'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js',
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4226.204019952943!2d-100.6186913192715!3d20.46386896515811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34b4b8f180fb5%3A0xdf7323353c29dcc7!2sCETis%20150!5e0!3m2!1ses-419!2smx!4v1650783581371!5m2!1ses-419!2smx',
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3528.28400914612!2d-100.61855570396784!3d20.46164060450954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34b4b8f180fb5%3A0xdf7323353c29dcc7!2sCETis%20150!5e0!3m2!1ses!2smx!4v1650847610852!5m2!1ses!2smx'
 ]
 
 self.addEventListener('install', e => {
