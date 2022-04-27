@@ -8,6 +8,7 @@ const assets = [
   '/',
   '/index.html',
   '/offline.html',
+  '/error404.html',
   '/Icono.png',
   
   '/css/bulma-0.9.3.min.css',
@@ -79,7 +80,7 @@ self.addEventListener('activate', e => {
   const activateSW = caches.keys()
     .then(keys => {
       return Promise.all(keys).filter(key => key !== CACHE_STATIC_NAME && key !== CACHE_DYNAMIC_NAME)
-      .map(key => caches.delete(key));
+      .map(key => caches.delete(key) );
     });
 
   e.waitUntil( activateSW );
